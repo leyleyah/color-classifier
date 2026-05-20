@@ -72,12 +72,6 @@ export default function Home() {
       <p className="subtitle">
         Upload an image to detect its dominant color.
       </p>
-      <p className="hint hint-ok">
-        Live at{" "}
-        <a href="https://colorcheck.vercel.app" target="_blank" rel="noopener noreferrer">
-          colorcheck.vercel.app
-        </a>
-      </p>
       <form onSubmit={onSubmit}>
         <input
           type="file"
