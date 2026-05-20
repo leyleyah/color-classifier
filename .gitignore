@@ -4,11 +4,13 @@ __pycache__/
 *.py[cod]
 .Python
 *.egg-info/
-.venv_bootstrap.lock
 
-# Uploads & temp
+# Uploads (runtime only)
 uploads/*
 !uploads/.gitkeep
+
+# Training data (download from Kaggle when retraining — see TRAINING.md)
+training_dataset/
 
 # IDE / OS
 .idea/
@@ -28,7 +30,3 @@ web/out/
 
 # Logs
 *.log
-terminals/
-
-# Optional: exclude huge model from git (use Git LFS or host on Render volume)
-# color_classifier.h5

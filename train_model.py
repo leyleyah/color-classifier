@@ -142,7 +142,7 @@ def main() -> None:
     model.save(MODEL_OUT)
     print(f"\nSaved model: {MODEL_OUT}")
     print(f"Saved class map: {INDICES_OUT}")
-    print("Restart start_model_server.bat (or model_server.py) to load the new weights.")
+    print("Redeploy Render or restart: uvicorn api.main:app")
 
 
 if __name__ == "__main__":

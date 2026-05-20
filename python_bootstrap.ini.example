@@ -1,8 +1,0 @@
-; Copy this file to python_bootstrap.ini and set the full path to python.exe
-; (the real install, not the Microsoft Store stub). Apache often cannot see "py"
-; in PATH — this file fixes automatic venv creation from the web server.
-;
-; Example:
-; python=C:\Users\YourName\AppData\Local\Programs\Python\Python311\python.exe
-
-python=
