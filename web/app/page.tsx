@@ -68,7 +68,7 @@ export default function Home() {
 
   return (
     <div className="container">
-      <h1>Color Classification AI</h1>
+      <h1>ColorCheck</h1>
       <p className="subtitle">
         Upload an image to detect its dominant color (trained on Kaggle color dataset)
       </p>
