@@ -68,7 +68,7 @@ export default function Home() {
 
   return (
     <div className="container">
-      <h1>Color Check</h1>
+      <h2>BASIC COLOR CLASSIFICATION SYSTEM</h2>
       <p className="subtitle">
         Upload an image to detect its dominant color.
       </p>
