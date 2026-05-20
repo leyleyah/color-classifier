@@ -47,6 +47,11 @@ h1 {
   color: #1a5c32;
 }
 
+.hint a {
+  color: #1a5c32;
+  font-weight: bold;
+}
+
 input[type="file"] {
   width: 100%;
   margin: 15px 0;
