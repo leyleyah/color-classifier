@@ -68,14 +68,16 @@ export default function Home() {
 
   return (
     <div className="container">
-      <h1>ColorCheck</h1>
+      <h1>Color Check</h1>
       <p className="subtitle">
-        Upload an image to detect its dominant color (trained on Kaggle color dataset)
+        Upload an image to detect its dominant color.
       </p>
       <p className="hint hint-ok">
-        Powered by <code>color_classifier.h5</code> — UI on Vercel, ML API on Render.
+        Live at{" "}
+        <a href="https://colorcheck.vercel.app" target="_blank" rel="noopener noreferrer">
+          colorcheck.vercel.app
+        </a>
       </p>
-
       <form onSubmit={onSubmit}>
         <input
           type="file"

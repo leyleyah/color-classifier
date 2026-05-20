@@ -65,7 +65,7 @@ git push -u origin main
 
 5. Click **Deploy**
 
-Your app will be live at `https://your-project.vercel.app`
+Your app will be live at **https://colorcheck.vercel.app** (Vercel project name: `colorcheck`)
 
 ---
 

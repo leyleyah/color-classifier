@@ -11,9 +11,13 @@ Detect dominant colors using a trained **MobileNetV2** model (`color_classifier.
 
 Vercel cannot run TensorFlow/PHP locally; the model runs on Render and Vercel calls it.
 
+## Live site
+
+**https://colorcheck.vercel.app**
+
 ## Quick deploy
 
-See **[DEPLOY.md](./DEPLOY.md)** for step-by-step GitHub + Render + Vercel instructions.
+See **[DEPLOY.md](./DEPLOY.md)** and **[COLORCHECK_SETUP.md](./COLORCHECK_SETUP.md)** for GitHub + Render + Vercel instructions.
 
 ## Local development
 
